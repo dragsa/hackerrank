@@ -1,0 +1,29 @@
+
+# Scala
+*.class
+*.log
+
+# SBT
+.cache
+.history
+.lib/
+tmp
+dist/*
+target/
+project/target
+project/project/target
+
+
+# Intellij
+*.iml
+.idea/*
+.idea
+/out/
+
+# Project related
+.env
+.docker
+docker-compose.yml
+
+secrets.tar
+deploy_key
